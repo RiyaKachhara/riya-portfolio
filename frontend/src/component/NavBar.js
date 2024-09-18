@@ -52,7 +52,7 @@ export const NavBar=() =>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                  <a href="https://drive.google.com/file/d/1UBdEW0RLEQSod2mPwcLRiUAAac9FmsVK/view?usp=sharing" target="_blank"><img src={cv} alt="resume"/></a>
+                  <a href="https://drive.google.com/drive/folders/1Wblo139C0Uarqg_6n4autJve4dFS-pXd?usp=sharing" target="_blank"><img src={cv} alt="resume"/></a>
                   <a href="https://www.linkedin.com/in/riya-kachhara-a4438a259" target="_blank"><img src={linkedin} alt="linkedIn"/></a>
                   <a href="https://github.com/RiyaKachhara" target="_blank"><img src={git} alt="Icon" /></a>
                   <a href="https://leetcode.com/u/riyakachhara_/" target="_blank"><img src={leetcode} alt="Icon" /></a>
