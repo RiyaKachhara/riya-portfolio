@@ -25,7 +25,7 @@ export const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();// so page doesnot reload
     setButtonText("Sending...");
-    let response = await fetch("https://portfolio-backend-main-8daf.onrender.com", {
+    let response = await fetch("https://riya-portfolio-lilac.vercel.app/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
