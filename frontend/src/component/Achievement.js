@@ -28,8 +28,8 @@ export const Achievement = ()=>{
         }
       };
       const data = [
-        { image: leetcode, title: "Leetcode" ,description :"Achieved the Highest Contest Rating of 1551"},
-        { image: coding, title: "Coding Platforms", description :"Solved 650+ question across various coding platforms"},
+        { image: leetcode, title: "Leetcode" ,description :"Achieved the Highest Contest Rating of 1772"},
+        { image: coding, title: "Coding Platforms", description :"Solved 1000+ question across various coding platforms"},
         { image: codess, title: "Codess Cafe", description :"Selected among 1000+ applicants for this elite Mentorship Program for women in tech" },
         { image: WE, title: "Women Engineers Scholar", description :"Among the top 1% of scholars out of 22,000+ eligible applicants & received a 100% program & rewarding scholarship by Talentsprint & Google" },
         { image: nodebrew, title: "Brew Bridge Program" ,description :"Choosen as a volunteer and mentee by NodeBrew out of 1500+ applicants"},

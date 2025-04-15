@@ -4,7 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 import cpp from '../assets/images/cpp.png';
 import dbms from '../assets/images/DBMS.png';
 import os from '../assets/images/os.png';
-//import cn from '../assets/images/cn.png';
+import cn from '../assets/images/cn.png';
 import oops from '../assets/images/oops.png';
 import sql from '../assets/images/sql.png';
 import webdev from '../assets/images/webdev.png';
@@ -34,7 +34,7 @@ export const Skills = ()=>{
         { image: dbms, title: "DBMS" },
         { image: oops, title: "OOPs" },
         { image: os, title: "OS" },
-        //{ image: cn, title: "CN" },
+        { image: cn, title: "CN" },
         { image: sql, title: "SQL" },
         { image: webdev, title: "Web Development" }
       ];

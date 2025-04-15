@@ -1,30 +1,38 @@
 import { Container, Row, Tab ,Col, Nav} from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import av from "../assets/images/av.png";
-import cb from "../assets/images/crazy_bus.png";
-import vt from "../assets/images/vital_track.png";
+import av from "../assets/images/weather.png";
+import cb from "../assets/images/chat.png";
+import rulegirl from "../assets/images/image.png";
+import foody from "../assets/images/foody1.jpg"
 import ids from "../assets/images/ids.png";
 import dl from "../assets/images/dl.png";
 export const Project = () => {
     const projects1 = [
         {
-            title:"Crazy Bus",
-            description: "Crazy Bus is a full-stack project, redefines the LNMIIT travel experience. Tailored for students, it streamlines bus selection, seat reservation, and secure payments. It has user-centric design, emphasizing how Crazy Bus enhances convenience for LNMIIT students. From the intuitive interface to robust functionality, the project showcases a seamless and reliable bus booking platform, addressing the unique needs of the LNMIIT community.",
+            title:"Lynk",
+            description: "Connect instantly with real-time messaging, smart presence indicators, and seamless user interactions in a modern chat experience.",
             imgUrl: cb
         },
         {
-            title:"Algorithm Visualiser",
-            description: "The Algorithm Visualizer project is currently in progress, with the goal of providing an interactive visualization of common sorting algorithms. This tool will allow users to observe the step-by-step execution of sorting algorithms with adjustable input sizes and variable numbers. By enhancing understanding through visual representation, the project aims to make learning algorithms engaging and accessible, fostering a deeper comprehension of sorting processes.",
+            title:"Weather Application",
+            description: "An intuitive platform providing real-time forecasts and weather insights for locations worldwide.",
             imgUrl: av
         }
     ];
     const projects2 = [
         {
-            title:"Vital-Track",
-            description: "This project is a prototype for monitoring different body vital and environmental conditions. The system uses a variety of sensors, including a temperature sensor, an environmental sensor, and a network connection. The data collected from these sensors is then displayed on a web dashboard and uploaded to a cloud platform for further data analysis and real-time monitoring.",
-            imgUrl: vt
+            title:"WhirlWash- Laundry Management System",
+            description: "Digitized hostel laundry access with smart booking, fair-use logic, and OTP-verified reservations—making queues and conflicts a thing of the past.",
+            imgUrl: rulegirl,
+            bgColor: "#f8f9fa" 
+        },
+        {
+            title:"Foody - Food Recipe App",
+            description: "Discover, search, and cook with ease—this app brings curated recipes and YouTube tutorials together in one smooth mobile experience.",
+            imgUrl: foody
         }
     ];
+
     const projects3 = [
         {
             title:"Student Academic Dropout and Sucess",
@@ -48,18 +56,18 @@ export const Project = () => {
                     <Tab.Container id="projetcs-tabs" defaultActiveKey="first">
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                         <Nav.Item>
-                            <Nav.Link eventKey="first">Web Develpement</Nav.Link>
+                            <Nav.Link eventKey="first">Web Developement</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link eventKey="second">Other</Nav.Link>
+                            <Nav.Link eventKey="second">App Development</Nav.Link>
                         </Nav.Item>
-                        <Nav.Item>
+                        {/* <Nav.Item>
                             <Nav.Link eventKey="third">ML/DL</Nav.Link>
-                        </Nav.Item>
+                        </Nav.Item> */}
                     </Nav>
                     <Tab.Content>
                         <Tab.Pane eventKey="first">
-                            <Row>
+                            <Row className="justify-content-center mx-auto" style={{ maxWidth: "900px" }}>
                                 {
                                 projects1.map(
                                     (project,index) => {
@@ -75,7 +83,7 @@ export const Project = () => {
                         </Tab.Pane>
                         <Tab.Pane eventKey="second">
                             
-                            <Row>
+                            <Row className="justify-content-center mx-auto" style={{ maxWidth: "900px" }}>
                                 {
                                 projects2.map(
                                     (project,index) => {
@@ -90,7 +98,8 @@ export const Project = () => {
                             </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="third">
-                        <Row>
+                        
+                        <Row className="justify-content-center mx-auto" style={{ maxWidth: "900px" }}>
                                 {
                                 projects3.map(
                                     (project,index) => {

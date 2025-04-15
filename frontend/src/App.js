@@ -3,7 +3,7 @@ import './App.css';
 import { NavBar } from './component/NavBar';
 import { Banner } from './component/Banner';
 import { Skills } from './component/Skills';
-//import { Project } from './component/Project';
+import { Project } from './component/Project';
 import { Achievement } from './component/Achievement';
 import { Extra } from './component/Extra';
 import { Contact } from './component/Contact';
@@ -18,7 +18,7 @@ function App() {
       <NavBar/>
       <Banner/>
       <Skills/>
-     
+      <Project />
       <Achievement/>
       <Extra/>
       <Contact/>
